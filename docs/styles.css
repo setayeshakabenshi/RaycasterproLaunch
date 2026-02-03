@@ -295,6 +295,37 @@ footer {
     font-weight: bold;
 }
 
+.photo-container {
+  margin: 10%;
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content: center;
+  gap: 16px;
+}
+
+.image {
+  width: 30%;
+  border-radius: 14px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.image:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.ubuntu-image {
+  margin-top: 15px;
+  width: 70%;
+  border-radius: 14px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.ubuntu-image:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
 @media (max-width:768px) 
 {
   .navbar {
