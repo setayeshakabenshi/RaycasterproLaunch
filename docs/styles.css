@@ -297,6 +297,7 @@ footer {
 
 .photo-container {
   margin: 10%;
+  margin-bottom:32px !important;
   display: flex;
   flex-wrap:wrap ;
   justify-content: center;
@@ -315,8 +316,10 @@ footer {
 }
 
 .ubuntu-image {
-  margin-top: 15px;
-  width: 70%;
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+  width: 60%;
   border-radius: 14px;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -326,6 +329,11 @@ footer {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
+.image-caption {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
 @media (max-width:768px) 
 {
   .navbar {
@@ -383,5 +391,9 @@ footer {
 
   footer {
     padding: 30px 6%;
+  }
+
+  .image-caption {
+    font-size: 10px;
   }
 }
